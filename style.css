@@ -1,0 +1,75 @@
+body {
+      background : #E6E6FA;
+     }
+h1 {
+    text-align : center;
+   }
+   
+h1.zagl {
+	text-align:center;
+	color:black;
+	font-size: 18px;
+	font-weight: 400;
+}
+#leftcol { /* Левая колонка */
+    float: left; /* Обтекание справа */
+    border: 1px solid #333; /* Параметры рамки вокруг */
+    width: 150px; /* Ширина колонки */
+    padding: 5px; /* Поля вокруг текста */
+    margin: 10px 10px 20px 5px; /* Значения отступов */
+	height:200px;/*высота*/
+  }
+li {
+    list-style-type: none; /* Прячем исходные маркеры */
+   }
+A {
+    color:Teal ;
+	font-style: italic;
+	font-size: 18px;
+   }
+s1.Zagolovki {
+	text-align:center;
+	color:black;
+	font-size: 18px;
+	font-weight: 400;
+}
+div.text{
+	color : #4B0082;
+	font-size: 14px;
+	font-style: italic;
+	line-height:16px;
+	text-align:justify;
+}
+div.detali{
+	color :#484343;
+	font-size: 16px;
+	font-weight:400;
+	line-height: 24px;
+	text-align: left;
+}
+div.list{
+	color :#800080;
+	font-size: 16px;
+	text-align: justify;
+	list-style-image: url("pic.png")
+}
+input.form[type="text"] {
+font-size: 14px;
+font-style: italic;
+color: black;
+} 
+input.form2[type="button"] {
+font-weight: bold;
+font-size: 18px;
+font-style: normal;
+text-align: center;
+} 
+textarea.form {
+font-size: 12px;
+font-style: italic;
+color: black;
+}
+.image-item {
+float: right;
+border: 3px solid #BC8F8F ;  
+}
